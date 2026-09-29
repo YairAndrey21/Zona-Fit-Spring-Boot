@@ -12,7 +12,7 @@ Aplicación de consola (CLI) desarrollada en Java con **Spring Boot** y **Spring
 ## 🛠️ Configuración y Ejecución
 
 ### 1. Base de Datos
-El framework está configurado para **no** crear la estructura de la base de datos automáticamente (`ddl-auto=none`). Debes ejecutar el script incluido [schema.sql](schema.sql) en tu gestor de bases de datos MySQL para crear la base de datos `zona_fit_db` y su tabla `cliente` antes de correr el proyecto.
+El framework está configurado para **no** crear la estructura de la base de datos automáticamente (`ddl-auto=none`). Debes ejecutar el script incluido [schema.sql](zona_fit/schema.sql) en tu gestor de bases de datos MySQL para crear la base de datos `zona_fit_db` y su tabla `cliente` antes de correr el proyecto.
 
 ### 2. Variables de Entorno (Seguridad de Credenciales) 🔐
 Por buenas prácticas de seguridad, las credenciales de la base de datos no están codificadas en el archivo `application.properties`. Antes de ejecutar la aplicación, debes configurar las siguientes **variables de entorno** en tu sistema o en tu IDE (como IntelliJ IDEA):
